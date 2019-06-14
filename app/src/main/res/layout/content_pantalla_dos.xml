@@ -12,11 +12,22 @@
     <TextView
             android:text="PANTALLA 2"
             android:layout_width="204dp"
-            android:layout_height="33dp" tools:layout_editor_absoluteY="29dp"
-            tools:layout_editor_absoluteX="91dp" android:id="@+id/textView5"/>
+            android:layout_height="34dp"
+            android:id="@+id/textView5"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView6" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
     <TextView
-            android:text="Bienvenido $VARIABLE, esta es la pantalla 2"
+            android:text="bienvenido $VARIABLE, esta en la pantalla2"
             android:layout_width="204dp"
-            android:layout_height="33dp" tools:layout_editor_absoluteY="141dp"
-            tools:layout_editor_absoluteX="91dp" android:id="@+id/textView6"/>
+            android:layout_height="33dp"
+            android:id="@+id/textView6"
+            android:layout_marginBottom="508dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"/>
 </android.support.constraint.ConstraintLayout>
